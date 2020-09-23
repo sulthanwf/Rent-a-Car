@@ -1,0 +1,55 @@
+<div class="modal" id="AddCar" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add Car</h2>
+            </div>
+            <div class="modal-body">
+                <form method="post" id="addCarForm">
+                    <div class="row">
+                        <div class="form-group col-12">
+                            <label for="rego">Registration Number</label>
+                            <input id="rego" class="form-control" type="text" name="rego">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="manufacturer">Manufacturer Name</label>
+                            <input id="manufacturer" class="form-control" type="text" name="manufacturer">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="cmodel">Car Model</label>
+                            <input id="cmodel" class="form-control" type="text" name="cmodel">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="ymanufactured">Year</label>
+                            <input id="ymanufactured" class="form-control" type="number" min="1900" name="ymanufactured">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="ctype">Car Type</label>
+                            <input id="ctype" class="form-control" type="city" name="ctype">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="fee">Fee</label>
+                            <input id="fee" class="form-control" type="text" name="fee">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="image">Image</label>
+                            <input id="image" class="form-control-file" type="file" name="image">
+                            <small>Error message</small>
+                        </div>
+                        <div class="btn-group col-12 px-3" role="group" aria-label="Button group">
+                            <button type="submit" class="btn btn-success outline">Add</button>
+                            <button type="reset" class="btn btn-danger" data-dismiss="modal">Discard</button>
+                        </div>
+                        <div class="col-12"><p id="registration_response_msg"></p></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

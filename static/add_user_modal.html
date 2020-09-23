@@ -1,0 +1,65 @@
+<div class="modal" id="AddUser" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add User</h2>
+            </div>
+            <div class="modal-body">
+                <form method="post" id="addUserForm">
+                    <div class="row">
+                        <div class="form-group col-12">
+                            <label for="email">Email</label>
+                            <input id="email" class="form-control" type="text" name="email">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="firstname">First Name</label>
+                            <input id="firstname" class="form-control" type="text" name="fname">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="lastname">Last Name</label>
+                            <input id="lastname" class="form-control" type="text" name="lname">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="dob">Date of Birth</label>
+                            <input id="dob" class="form-control" type="date" name="dob">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="address">Address</label>
+                            <input id="address" class="form-control" type="city" name="address">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="phone">Phone No.</label>
+                            <input id="phone" class="form-control" type="tel" name="phone">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="dlicense">Driver's License No.</label>
+                            <input id="dlicense" class="form-control" type="text" name="dlicense">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="password">Password</label>
+                            <input id="password" class="form-control" type="password" name="password">
+                            <small>Error message</small>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="password2">Confirm Your Password</label>
+                            <input id="password2" class="form-control-file" type="password" name="password2">
+                            <small>Error message</small>
+                        </div>
+                        <div class="btn-group col-12 px-3" role="group" aria-label="Button group">
+                            <button type="submit" class="btn btn-success outline">Add</button>
+                            <button type="reset" class="btn btn-danger" data-dismiss="modal">Discard</button>
+                        </div>
+                        <div class="col-12"><p id="registration_response_msg"></p></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
