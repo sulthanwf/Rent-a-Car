@@ -28,7 +28,7 @@
     <footer id="footer">
         <?php include 'static/footer.php' ?>
         <script src="js/map.js"></script>
-        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBY1mOXmSmTFuX_gp-_WjtSIOSsv4b_5J4&callback=initMap"></script>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
         <script src="js/contactUsValidation.js"></script>
     </footer>
 
