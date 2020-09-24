@@ -30,7 +30,7 @@
                         <input id="password" class="form-control" type="password" name="password">
                         <small>Error message</small>
                     </div>
-                    <div class="g-recaptcha mb-3" data-sitekey="6LdCnc0ZAAAAACAdsig-8m7gFpxpKhiiEa9IuOkK" style="text-align: -webkit-center;"></div>
+                    <div class="g-recaptcha mb-3" data-sitekey="YOUR_DATASITE_KEY" style="text-align: -webkit-center;"></div>
                     <div class="btn-group" role="group" aria-label="Button group">
                         <button type="submit" class="btn btn-success outline">Sign in!</button>
                     </div>
